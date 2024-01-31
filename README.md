@@ -3,11 +3,21 @@
 
 # About the project
 
-This is a web services project elaborated and created during my journey through the **course:**  [Java COMPLETO Programação Orientada a Objetos + Projetos](https://www.udemy.com/course/java-curso-completo/ "Course Link").
+This is a web services project elaborated and created during my journey through the **course:**  [Java COMPLETO Programação Orientada a Objetos + Projetos](https://www.udemy.com/course/java-curso-completo/ "Course Link") (PT-BR).
 
 Web services are applications or systems that communicate over the internet, allowing the exchange of data and functionalities between different devices and platforms.
 
 Obs: I changed this application to currently work with the H2 database, however it is fully prepared to be launched on a hosting tool, such as Heroku, as the profiles for it are already developed.
+
+# Objectives
+
+- Create Spring Boot Java project
+- Implement domain model
+- Structure logical layers: resource, service, repository
+- Configure test database (H2)
+- Populate the database
+- CRUD - Create, Retrieve, Update, Delete
+- Exception handling
 
 # Vantages of using Spring Boot and JPA/Hibernate:
 
