@@ -14,9 +14,9 @@ A aplicação consiste em uma pesquisa de preferência de games, onde os dados s
 ![Domain Instances](https://github.com/Faelz77/assets/blob/main/WSSBJPA/DomainInstances.png)
 
 ## Logical Layers
-![Logical Layers](https://github.com/Faelz77/assets/blob/main/WSSBJPA/Layers.png)
+![Logical Layers](https://github.com/Faelz77/assets/blob/d1eb49ef97bc4209ffc062451d6d8a62c4da2b0c/WSSBJPA/Layers.png)
 
-# Tecnologias utilizadas
+# Technologies involved
 
 ## Back end
 - Java
@@ -24,26 +24,23 @@ A aplicação consiste em uma pesquisa de preferência de games, onde os dados s
 - JPA / Hibernate
 - Maven
 
-## Implantação em produção
-- Banco de dados: Postgresql
+## Production deployment
+- H2 local memory database
 
-# Como executar o projeto
+# How to execute the project
 
 ## Back end
-Pré-requisitos: Java 17
+Prerequisite: Java 17
 
 ```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+# clone repository
+git clone https://github.com/Faelz77/Project-web-services-with-Spring-Boot-and-JPA-Hibernate.git
 
-# entrar na pasta do projeto back end
-cd backend
-
-# executar o projeto
+# execute project
 ./mvnw spring-boot:run
 ```
 
-# Autor
+# Author
 
 Rafael Oliveira Venancio
 
