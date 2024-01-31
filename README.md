@@ -3,9 +3,15 @@
 
 # About the project
 
-Big Game Survey é uma aplicação full stack web e mobile construída durante a 1ª edição da **Semana DevSuperior** (#sds1), evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+This is a web services project elaborated and created during my journey through the **course:**  [Java COMPLETO Programação Orientada a Objetos + Projetos](https://www.udemy.com/course/java-curso-completo/ "Course Link").
 
-A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
+Web services are applications or systems that communicate over the internet, allowing the exchange of data and functionalities between different devices and platforms.
+
+Obs: I changed this application to currently work with the H2 database, however it is fully prepared to be launched on a hosting tool, such as Heroku, as the profiles for it are already developed.
+
+# Vantages of using Spring Boot and JPA/Hibernate:
+
+By using Spring Boot and JPA to develop web services, you can create efficient, scalable, and easy-to-maintain applications with features such as dependency injection, automatic configurations, and simplified object-relational mapping.
 
 ## Domain Model
 ![Domain Model](https://github.com/Faelz77/assets/blob/main/WSSBJPA/DomainModel.png)
@@ -27,10 +33,10 @@ A aplicação consiste em uma pesquisa de preferência de games, onde os dados s
 ## Production deployment
 - H2 local memory database
 
-# How to execute the project
+# How to execute the project:
 
 ## Back end
-Prerequisite: Java 17
+Prerequisite: Java 17, Postman for test requests
 
 ```bash
 # clone repository
@@ -38,6 +44,9 @@ git clone https://github.com/Faelz77/Project-web-services-with-Spring-Boot-and-J
 
 # execute project
 ./mvnw spring-boot:run
+
+# database url:
+http://localhost:8080/
 ```
 
 # Author
